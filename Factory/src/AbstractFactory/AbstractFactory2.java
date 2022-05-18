@@ -13,11 +13,9 @@ public class AbstractFactory2 {
         Product product2 = factory1.makeProduct2();
     }
 
-
     //抽象工厂
     interface AbstractFactory {
         TestProduct1 makeProduct1();
-
         TestProduct2 makeProduct2();
     }
 
